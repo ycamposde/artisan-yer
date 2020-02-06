@@ -1,0 +1,27 @@
+{
+    "name": "ycamposde/artisan-yer",
+    "description": "We all need a little laughter during our work, so this command will return a random (bad) joke.",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yerson Campos",
+            "email": "ycamposde@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ycamposde\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ycamposde\\Commands\\ArtisanJokeServiceProvider"
+            ]
+        }
+    }
+}
